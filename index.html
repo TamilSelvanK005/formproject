@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Spark Foodeee</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booktable.html">BOOK TABLE</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <div class="p-2"><i class="bi bi-person-circle"></i></div>
+                        <div class="p-2"><i class="bi bi-cart"></i></div>
+                        <div class="p-2"> <i class="bi bi-search"></i></div>
+                        <button class="btn btn-warning" type="submit">Order Online</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/hero-bg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <button class="btn btn-warning" type="submit">Order Online</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hero-bg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <button class="btn btn-warning" type="submit">Order Online</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hero-bg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <button class="btn btn-warning" type="submit">Order Online</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <section class="discountboxsec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="discountbox text-white p-3 m-3">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="discountimg">
+                                    <img src="img/o1.jpg" alt="food">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="discountcont p-3m-3">
+                                    <h3>Tasty Days</h3>
+                                    <p>20% Off</p>
+                                    <button type="button" class="btn btn-warning">Order Online <i
+                                            class="bi bi-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="discountbox text-white p-3 m-3">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="discountimg">
+                                    <img src="img/o2.jpg" alt="food">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="discountcont p-3m-3">
+                                    <h3>Pizza Days</h3>
+                                    <p>15% Off</p>
+                                    <button type="button" class="btn btn-warning">Order Online <i
+                                            class="bi bi-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cardbox py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>OUR MENU</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="foodmenuitems">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home-tab-pane" type="button" role="tab"
+                                    aria-controls="home-tab-pane" aria-selected="true">All</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                    data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                    aria-controls="profile-tab-pane" aria-selected="false">Burger</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="pizza-tab" data-bs-toggle="tab"
+                                    data-bs-target="#pizza-pane" type="button" role="tab" aria-controls="pizza-pane"
+                                    aria-selected="false">Pizza</button>
+                            </li>
+
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pasta-tab" data-bs-toggle="tab"
+                                    data-bs-target="#pasta-pane" type="button" role="tab" aria-controls="pasta-pane"
+                                    aria-selected="false">Pasta</button>
+                            </li>
+
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="fries-tab" data-bs-toggle="tab"
+                                    data-bs-target="#fries-pane" type="button" role="tab" aria-controls="fries-pane"
+                                    aria-selected="false">Fries</button>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                aria-labelledby="home-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f1.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pizza</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;200</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f2.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Burger</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;150</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f3.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pizza</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;170</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f4.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pasta</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;180</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f5.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">French Fries</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;200</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f6.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pizza</h5>
+                                                        <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                            cupiditate quo, quisquam velit, magnam voluptatem
+                                                            repellendus
+                                                            sed eaque.</p>
+                                                        <div
+                                                            class="dicountprize d-flex justify-content-between align-items-center">
+                                                            <h5>&#8377;250</h5>
+                                                            <div>
+                                                                <button type="button" class="btn btn-warning">
+                                                                    <i class="bi bi-cart"></i></button>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f7.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pizza</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;120</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f8.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Tasty Burger</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;170</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f9.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pasta</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;180</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button class="btn btn-warning" type="submit">View More</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                                aria-labelledby="profile-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f2.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Burger</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;150</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f7.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Burger</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;120</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f8.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Tasty Burger</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;170</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button class="btn btn-warning" type="submit">View more</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pizza-pane" role="tabpanel" aria-labelledby="pizza-tab"
+                                tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f1.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pizza</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;200</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f3.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pizza</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;170</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f6.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pizza</h5>
+                                                        <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                            cupiditate quo, quisquam velit, magnam voluptatem
+                                                            repellendus
+                                                            sed eaque.</p>
+                                                        <div
+                                                            class="dicountprize d-flex justify-content-between align-items-center">
+                                                            <h5>&#8377;250</h5>
+                                                            <div>
+                                                                <button type="button" class="btn btn-warning">
+                                                                    <i class="bi bi-cart"></i></button>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button class="btn btn-warning" type="submit">View more</button>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pasta-pane" role="tabpanel" aria-labelledby="pasta-tab"
+                                tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f4.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pasta</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;180</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f9.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Delicious Pasta</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;180</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button class="btn btn-warning" type="submit">View more</button>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="fries-pane" role="tabpanel" aria-labelledby="fries-tab"
+                                tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="foodmenu p-3 m-3">
+                                            <div class="card">
+                                                <div class="cardimg">
+                                                    <img src="img/f5.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">French Fries</h5>
+                                                    <p class="card-text">Veniam debitis quaerat officiis quasi
+                                                        cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                                                        sed eaque.</p>
+                                                    <div
+                                                        class="dicountprize d-flex justify-content-between align-items-center">
+                                                        <h5>&#8377;200</h5>
+                                                        <div>
+                                                            <button type="button" class="btn btn-warning">
+                                                                <i class="bi bi-cart"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button class="btn btn-warning" type="submit">View more</button>
+                                </div>
+                            </div>
+                        </div>
+    </section>
+    <section class="aboutsection py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-4">
+                    <div class="aboout-img sm-w-100">
+                        <img src="img/about-img.png" alt="about">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contentabout p-3 m-3">
+                        <h2>We Are Feane</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+                            sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                        <button class="btn btn-warning" type="submit">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="forms py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 -m-3 p-3">
+                    <h2>Book A Table</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleInputName" placeholder="Enter your name">
+                        </div>
+
+
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="exampleInputPhone"
+                                placeholder="Enter your phone number">
+                        </div>
+
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-select" id="exampleInputPersons">
+                                <option selected disabled>How Many Persons?</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 Persons</option>
+                                <option value="3">3 Persons</option>
+                                <option value="4">4 Persons</option>
+                                <option value="5">5 Persons</option>
+                            </select>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <input type="date" class="form-control" id="exampleInputDate">
+                        </div>
+
+
+                        <button class="btn btn-warning" type="submit">BOOK NOW</button>
+                    </form>
+                </div>
+                <div class="col-md-6 py-2">
+                    <div class="footer-map  justify-content-between align-items-center">
+                        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            id="gmap_canvas"
+                            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Manimegali%20street%20.%20Cuddalore+(cuddalore)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-3 m-3 text-center">
+                    <h2>What Says Our Customers</h3>
+                </div>
+            </div>
+
+            <!-- First Pair: Card Left, Image Right -->
+            <div class="row align-items-center mb-4 text-center">
+                <div class="col-sm-6">
+                    <div class="card1">
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+                            <h3>Mona Hamell</h3>
+                            <span>magna aliqua</span>
+                        </div>
+                    </div>
+                    <!-- keep image border inside the same column -->
+                    <div class="referimgborder">
+                        <div class="referimg">
+                            <img src="img/client1.jpg" alt="client">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card1">
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+                            <h3>Mike Hamell</h3>
+                            <span>magna aliqua</span>
+                        </div>
+                    </div>
+                    <!-- keep image border inside the same column -->
+                    <div class="referimgborder">
+                        <div class="referimg">
+                            <img src="img/client2.jpg" alt="client">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center m-4 p-4">
+                <div class="col-md-12">
+                    <button class="btn btn-warning"><i class="bi bi-arrow-left-circle"></i></button>
+                    <button class="btn btn-warning"><i class="bi bi-arrow-right-circle"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Contact Us -->
+                <div class="col-md-4 footer-col text-center text-right">
+                    <h4>Contact Us</h4>
+                    <p><i class="fa fa-map-marker"></i> Location</p>
+                    <p><i class="fa fa-phone"></i> Call +01 1234567890</p>
+                    <p><i class="fa fa-envelope"></i> demo@gmail.com</p>
+                </div>
+
+                <!-- Logo + Text -->
+                <div class="col-md-4 footer-col text-center">
+                    <h2 class="footer-logo">Spark Foodeee</h2>
+                    <p>
+                        Necessary, making this the first true generator
+                        on the Internet. It uses a dictionary of over 200
+                        Latin words, combined with
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <!-- Opening Hours -->
+                <div class="col-12 col-lg-4 text-center text-end">
+                    <h4>Opening Hours</h4>
+                    <p>Everyday</p>
+                    <p>10.00 Am - 10.00 Pm</p>
+                </div>
+            </div>
+
+            <!-- Bottom text -->
+            <div class="footer-bottom text-center">
+                <p>© 2025 All Rights Reserved By Free Html Templates</p>
+                <p>© Distributed By ThemeWagon</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
